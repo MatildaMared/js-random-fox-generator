@@ -27,25 +27,19 @@ body {
 /* MAIN SECTION */
 
 .main {
-    margin: 0 auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-rows: auto 1fr auto;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     width: 80%;
-    height: 80%;
+    max-width: 1200px;
+    min-height: 80%;
     background-color: rgba(255, 255, 255, .255);
     border-radius: 2rem;
     backdrop-filter: blur(7px);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
-}
-
-@media screen and (min-width: 1500px) {
-    .main {
-        width: 60%;
-        height: 80%;
-    }
 }
 
 .heading {
